@@ -1,0 +1,316 @@
+# Page settings
+
+baseURL = "http://raulneiva.online/"
+languageCode = "en"
+title = "Raul Neiva - DevOps Engineer"
+theme = "hugo-devresume-theme"
+#uglyURLs = true
+#canonifyurls = true
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "Raul Neiva"
+    description = "My DevResume"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Raul Neiva"
+        tagline = "Senior DevOps Engineer"
+        avatar = "avatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Brazil - Goiânia, GO"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "(+55) 62 9-9815-3243"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:hi@raulneiva.online"
+        text = "hi@raulneiva.online"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "//raulneiva.online"
+        text = "https://raulneiva.online"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Kubernetes/Nomad/Docker"
+        [[params.skills.list.items]]
+        details = "HashiStack"
+        [[params.skills.list.items]]
+        details = "AWS/Azure/Google Cloud"
+        [[params.skills.list.items]]
+        details = "Git/GitHub/GitLab/BitBucket"
+        [[params.skills.list.items]]
+        details = "Jenkins/Prometheus/Grafana"
+        [[params.skills.list.items]]
+        details = "Shell/Python/PHP/React"
+        [[params.skills.list.items]]
+        details = "Terraform/Pulumi"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL/Oracle"
+
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "BSc in Network Computing"
+        university = "University of Franca - SP"
+        dates = "2017 - 2019"
+        [[params.education.list]]
+        degree = "High School"
+        university = "College Metropolitano - GO"
+        dates = "2009 - 2011"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+        [[params.languages.list]]
+        name = "Portuguese"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Advanced"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Basic"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "🍺 Beer"
+        [[params.interests.list]]
+        name = "🕹️ Games "
+        [[params.interests.list]]
+        name = "🏕️ Camping "
+        [[params.interests.list]]
+        name = "✈️ Travelling "
+        [[params.interests.list]]
+        name = "👨🏻‍💻 Progamming "
+        [[params.interests.list]]
+        name = "🔫 Guns "
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "I like to explore new technologies and develop software solutions and quick hacks - Working as DevOps from the last 3 years supporting, automating and optimizing mission-critical deployment on platforms Cloud: AWS, GCP and Azure, as well as On-Premises, CI/CD environments with focuses on good DevOps practices."
+        text1 = "The driving force that keeps me going is knowing if I do, I will grow and become stronger. 🚀"
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "DevOps Engineer"
+        dates = "Dec 2020 - Present"
+        company = "Mosyle Corporation"
+        details = "As senior analyst working on Mobile Device Management (iOS Devices), providing technical infrastructure support to application.cting strongly on automating installation and configuration processes for tools and environments through DevOps methodology."
+        [[params.experience.list.items]]
+        details = "Maintenance and management of the IT infrastructure in Cloud;"
+        [[params.experience.list.items]]
+        details = "Use of the Platform and Services - Azure: Application versioning, using Git with CI/CD methodology, release and Deploy of packages; Account Storage, Appliance Gateway, Azure Kubernetes Service (AKS), Azure Container Service (ACS), Web Application Firewall (WAF), Disaster Recovery (DR), Load Balance (LB), Automation and Monitoring;"
+        [[params.experience.list.items]]
+        details = "Creation and management of Scripts for Automations."
+
+        [[params.experience.list]]
+        title = "Technology Integration Engineer"
+        dates = "Feb 2019 - Dec 2020"
+        company = "Amdocs Ltda"
+        details = "As analyst working on Telecom industry, providing technical infrastructure support to application and testing teams. Acting strongly on automating installation and configuration processes for tools and environments through DevOps methodology. "
+        [[params.experience.list.items]]
+        details = "Monitor and solving day-to-day issues related to application environments;"
+        [[params.experience.list.items]]
+        details = "AWS: EC2, ECS, EKS, Lambda, API Gateway, VPC, RDS, DynamoDB, Elasticache, S3, SQS, Trusted Advisor;"
+        [[params.experience.list.items]]
+        details = "Automate workflows and infrastructure, enabling application and test teams to move faster."
+        [[params.experience.list.items]]
+        details = "IaC: Cloudformation, Terraform, Pulumi"
+        
+
+        [[params.experience.list]]
+        title = "Support Analyst N3"
+        dates = "Dec 2017 - Dec 2018"
+        company = "2Com Consulting"
+        details = "Planning, implementation, support and monitoring of data center resources, writing scripts for automating routines."
+        [[params.experience.list.items]]
+        details = "pfSense: Total Firewall deployment/management on clients;"
+        [[params.experience.list.items]]
+        details = "XenServer, VMWare and Hyper-V: Installation, creation of environments and implementation of backups;"
+
+        [[params.experience.list]]
+        title = "Support Analyst N3"
+        dates = "Dec 2016 - Nov 2017"
+        company = "Solid Tecnologia"
+        details = "Maintenance of network and computer infrastructure, installation of systems and configuration software on servers and technical support to customers."
+        [[params.experience.list.items]]
+        details = "Monitoring and Conference: creation of routine backups (Cobian) - Network monitoring and availability of servers and services (ZABBIX);"
+        [[params.experience.list.items]]
+        details = "Security: UTM Firewall (Endian), PfSense, IPtables and Web Proxy and FTP (SQUID);"
+        [[params.experience.list.items]]
+        details = "Servers: Management of virtualized environments (VM Ware/Hyper-V);"
+
+
+
+        [[params.experience.list]]
+        title = "Support Analyst N2"
+        dates = "Nov 2013 - Mar 2016"
+        company = "Oobj Tecnologia da Informação"
+        details = "Customer service regarding the system of management, issuance and receipt of NF-E, NFC-E, CT-E, MDF-E, guiding the best way to use the system, clarifying doubts about the business and the system, applying contour solutions, analyzing and Configuring the customer's environment for the perfect functioning, implementation of distance deployment, realization of customer training at a distance or in person. Goal-oriented work, using ITIL good practices, use of the Qualitor tool, Wiki as knowledge management and Redmine."
+
+        [[params.experience.list]]
+        title = "Analyst of Telerisk"
+        dates = "Dec 2012 - Nov 2013"
+        company = "Quick Logística Ltda"
+        details = "Responsible for the tracking sector; Track and monitor the fleet through the Autotrac system, fill out spreadsheets of drivers ' non-conformity, control of risk areas, trigger police forces if necessary, create high-load start-up travel releases Value, assistance to other sectors and subsidiaries on risk management standards."
+
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "MyCenter Platform"
+        meta = "Private"
+        tagline = "My Center is a collaborative web platform for sharing constructive feedback about our workplace. We firmly believe that our employees drive the success of the company, and having a positive work environment makes employees feel good about coming to work.With My Center, all employees can contribute with the workplace well-being. Post your thoughts and feelings, or endorse posts from other people – every contribution matters. Our objective is to amplify meaningful feedback and turn it into reality."
+
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/rneiva"
+        title = "rneiva"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/raulneiva"
+        title = "raulneiva"
+        [[params.social.list]]
+        icon = "fab fa-skype"
+        url = "//skype.com/raaulneiva"
+        title = "raaulneiva"
