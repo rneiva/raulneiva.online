@@ -1,5 +1,4 @@
 [![rneiva - rneiva.online](https://img.shields.io/static/v1?label=rneiva&message=rneiva.online&color=green&logo=github)](https://github.com/rneiva/raulneiva.online)
-[![stars - rneiva.online](https://img.shields.io/github/stars/rneiva/rneiva.online?style=social)](https://github.com/rneiva/rneiva.online)
 
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
