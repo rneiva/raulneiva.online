@@ -34,3 +34,8 @@ $ hugo server -D
 
 $ hugo (Create public folder and commit all changes)
 ```
+## Credits
+
+- [3ColorResume - Bootstrap Resume & CV Templates](https://themes.3rdwavemedia.com/)
+- [Bootstrap](http://getbootstrap.com/)
+- [FontAwesome](http://fortawesome.github.io/Font-Awesome/)
