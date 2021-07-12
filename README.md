@@ -1,6 +1,6 @@
 [![rneiva - rneiva.online](https://img.shields.io/static/v1?label=rneiva&message=rneiva.online&color=green&logo=github)](https://github.com/rneiva/raulneiva.online)
 
-[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#LICENSE)
 
 # raulneiva.online
 > My DevResume page - https://raulneiva.online
