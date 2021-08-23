@@ -25,6 +25,9 @@ sudo apt install -y ruby-full
 
 # hugo
 brew install hugo
+
+# nginx
+apt install nginx -y
 ```
 
 ## Run
